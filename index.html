@@ -1,0 +1,82 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Tpphp2</title>
+    
+   
+</head>
+
+<body>
+    <h1>my first furmul</h1>
+    <form action="afficher.php" method="POST">
+        <div>
+            <label for="Nom">Nom</label>
+            <input type="text" name="Nom" id="Nom"  placeholder=" Nom" size="10" minlength="5"
+                maxlength="20"  />
+        </div>
+        <br />
+        <div>
+            <label for="Prenom">Prenom:</label>
+            <input type="text" name="Prenom" id="Prenom" placeholder=" Prenom" size="10" minlength="5"
+                maxlength="20" />
+        </div>
+
+
+
+        <br />
+        <div>genre:
+            <label for="genre">feminin</label>
+            <input type="radio" name="genre" id="genre" value="feminin"/>
+            <label for="genre">masculin</label>
+            <input type="radio" name="genre" id="genre" value="masculin" />
+        </div>
+
+        <div>sitiation:
+            <label for="genre">marie</label>
+            <input type="radio" name="sitiation" id="sitiation" value="marie" />
+            <label for="genre">celibater</label>
+            <input type="radio" name="sitiation" id="sitiation" value="celibater" />
+        </div>
+
+
+        <br />
+        <div>
+            <h3>lange</h3>
+         
+                <label for="genre">arab</label>
+                <input type="checkbox" name="lange[]"  value="arab"/><br>
+                <label for="genre">francais</label>
+                <input type="checkbox" name="lange[]" value="francais" /><br>
+                <label for="genre">russ</label>
+                <input type="checkbox" name="lange[]"  value="russ"/><br>
+                <label for="genre">spain</label>
+                <input type="checkbox" name="lange[]"  value="spain"/><br>
+                
+        </div> <br><br>
+
+
+   <div> paye:
+    <select name="pays">
+        <option value="1">alger</option>
+        <option value="1">france</option>
+        <option value="1">russe</option>
+        <option value="1">spain</option>
+    </select>;
+    </div>
+    <center>
+    <button type="submit"> valider</button>
+        <button type="reset"> annuler</button>
+</center>
+    
+
+   </div>
+        
+
+
+
+
+    </form>
+</body>
+
+</html>
